@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" modified="2023-11-27T19:00:48.702Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MCRcTRyI0_qF__MGXLpM" version="22.1.4" type="device">
+  <diagram name="Page-1" id="LpPWEqwusSF52En7Buxe">
+    <mxGraphModel dx="667" dy="349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X8zyct69bt2SQm-ZTcsR-1" value="Zamestnanec" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8zyct69bt2SQm-ZTcsR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X8zyct69bt2SQm-ZTcsR-2" target="X8zyct69bt2SQm-ZTcsR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8zyct69bt2SQm-ZTcsR-8" value="najdi_druh_leku():2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" vertex="1" connectable="0" parent="X8zyct69bt2SQm-ZTcsR-7">
+          <mxGeometry x="0.0935" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8zyct69bt2SQm-ZTcsR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.997;exitY=0.853;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="X8zyct69bt2SQm-ZTcsR-2" target="X8zyct69bt2SQm-ZTcsR-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="341" />
+              <mxPoint x="380" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8zyct69bt2SQm-ZTcsR-15" value="[!je_na_sklade] vytvor_objednavku(): 3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X8zyct69bt2SQm-ZTcsR-11">
+          <mxGeometry x="0.1911" y="-2" relative="1" as="geometry">
+            <mxPoint x="-8" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8zyct69bt2SQm-ZTcsR-2" value="spravce_rezervaci" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8zyct69bt2SQm-ZTcsR-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.003;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X8zyct69bt2SQm-ZTcsR-1" target="X8zyct69bt2SQm-ZTcsR-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="380" as="sourcePoint" />
+            <mxPoint x="220" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8zyct69bt2SQm-ZTcsR-4" value="Vytvor_rezervace():1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" vertex="1" connectable="0" parent="X8zyct69bt2SQm-ZTcsR-3">
+          <mxGeometry x="-0.0983" y="-2" relative="1" as="geometry">
+            <mxPoint x="-11" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8zyct69bt2SQm-ZTcsR-5" value="sklad" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8zyct69bt2SQm-ZTcsR-9" value="dodavatel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8zyct69bt2SQm-ZTcsR-10" value="rezervace" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8zyct69bt2SQm-ZTcsR-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X8zyct69bt2SQm-ZTcsR-2" target="X8zyct69bt2SQm-ZTcsR-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="164.9956410256411" y="430" as="sourcePoint" />
+            <mxPoint x="480" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8zyct69bt2SQm-ZTcsR-14" value="[je_na_sklade] &amp;lt;&amp;lt;create&amp;gt;&amp;gt;: 5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X8zyct69bt2SQm-ZTcsR-13">
+          <mxGeometry x="0.2325" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8zyct69bt2SQm-ZTcsR-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="X8zyct69bt2SQm-ZTcsR-9" target="X8zyct69bt2SQm-ZTcsR-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="530" as="sourcePoint" />
+            <mxPoint x="540" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8zyct69bt2SQm-ZTcsR-17" value="pridej_na_sklad(): 4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="605" y="370" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
