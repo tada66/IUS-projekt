@@ -1,4 +1,4 @@
-# IUS projekt 35. Lékárna
+# IUS projekt 35. Lékárna; Hodnoceno 13.5/16b
 diagramy na IUS projekt 35
 https://www.fit.vutbr.cz/study/courses/IUS/public/projekt.html#rozdeleni
 # 35. Lékárna
